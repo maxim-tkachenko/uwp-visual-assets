@@ -55,7 +55,8 @@ The Visual Studio Emulator for Android icon gives an indication of what an icon 
 
 The taskbar icons are created using the **target size** versions of the **Square 44x44 logo**. The filename is important here. If you want a border around the icon use `Square44x44Logo.targetsize-xx.png`, where `xx` is 16, 24, 48 or 256:
 
-![Taskbar icon with border](/VisualAssetsApp/Assets/Square44x44Logo.targetsize-24.png)
+![Taskbar 16x16 icon with border](/VisualAssetsApp/Assets/Square44x44Logo.targetsize-16.png) (16x16)
+![Taskbar 24x24 icon with border](/VisualAssetsApp/Assets/Square44x44Logo.targetsize-24.png) (24x24)
 
 If you don't want a border, use `Square44x44Logo.targetsize-xx_altform-unplated.png`:
 
@@ -65,7 +66,7 @@ The differences when in use are shown below:
 
 ![Taskbar icon comparison](/ScreenShots/TaskbarIcons.png)
 
-The icon on the left has been shrunk to 16x16, leaving a border around it. The colour of the border is defined by the tile background colour discussed above. The icon on the right is full-size (24x24), with no border. **N.B.** The icon with the border is always scaled down, even if a 16x16 image is supplied.
+The icon on the left has been shrunk to 16x16, leaving a border around it. The colour of the border is defined by the tile background colour discussed above. The icon on the right is full-size (24x24), with no border. **N.B.** The 16x16 icon with the border is used instead of image 24x24.
 
 ## Notifications
 
