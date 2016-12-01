@@ -1,5 +1,4 @@
-﻿
-using Windows.UI.Xaml;
+﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Notifications;
 using Windows.Data.Xml.Dom;
@@ -42,11 +41,15 @@ namespace VisualAssetsApp
 
         private void SendToastNotification_Click(object sender, RoutedEventArgs e)
         {
-            ToastTemplateType toastTemplate = ToastTemplateType.ToastText01;
+            ToastTemplateType toastTemplate = ToastTemplateType.ToastImageAndText01;
             XmlDocument toastXml = ToastNotificationManager.GetTemplateContent(toastTemplate);
 
             XmlNodeList toastTextElements = toastXml.GetElementsByTagName("text");
             toastTextElements[0].AppendChild(toastXml.CreateTextNode("Toast notification"));
+
+            var toastImageAttributes = toastXml.GetElementsByTagName("image");
+            ((XmlElement)toastImageAttributes[0]).SetAttribute("src", "Assets/Square44x44Logo.png");
+            //((XmlElement)toastImageAttributes[0]).SetAttribute("src", "https://i.stack.imgur.com/wzdIt.jpg");
 
             ToastNotification toast = new ToastNotification(toastXml);
 
