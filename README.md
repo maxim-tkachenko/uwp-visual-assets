@@ -56,6 +56,7 @@ The Visual Studio Emulator for Android icon gives an indication of what an icon 
 The taskbar icons are created using the **target size** versions of the **Square 44x44 logo**. The filename is important here. If you want a border around the icon use `Square44x44Logo.targetsize-xx.png`, where `xx` is 16, 24, 48 or 256:
 
 ![Taskbar 16x16 icon with border](/VisualAssetsApp/Assets/Square44x44Logo.targetsize-16.png) (16x16)
+
 ![Taskbar 24x24 icon with border](/VisualAssetsApp/Assets/Square44x44Logo.targetsize-24.png) (24x24)
 
 If you don't want a border, use `Square44x44Logo.targetsize-xx_altform-unplated.png`:
@@ -74,7 +75,9 @@ The icon on the left has been shrunk to 16x16, leaving a border around it. The c
 
 Toast notifications use the **Square 44x44 logo**.
 
-![Tile background colour](/ScreenShots/ToastNotification.png)
+![Toast Notification](/ScreenShots/ToastNotification.png)
+
+![Action Center Notification](/ScreenShots/ActionCenter.png)
 
 ### Lock screen notifications
 
