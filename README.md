@@ -11,6 +11,7 @@ During the creation and testing of the project it became apparent that Visual St
 ## Tiles
 
 Live tiles come in four different sizes: small, medium, wide and large.
+If your tiles has transparent area so it will be filled by background color!
 
 ### Small
 
