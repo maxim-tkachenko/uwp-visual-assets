@@ -69,6 +69,22 @@ The differences when in use are shown below:
 
 The icon on the left has been shrunk to 16x16, leaving a border around it. The colour of the border is defined by the tile background colour discussed above. The icon on the right is full-size (24x24), with no border. **N.B.** The 16x16 icon with the border is used instead of image 24x24.
 
+### ALT+TAB
+
+![ALT+TAB icon](/ScreenShots/AltTabIcon.png)
+
+### Win+TAB
+
+![Win+TAB icon](/ScreenShots/WinTabIcon.png)
+
+### Settings -> System -> Notifications & actions
+
+![Notification Settings Icon](/ScreenShots/NotificationSettingsIcon.png)
+
+### Task Manager
+
+![Task Manager Icon](/ScreenShots/TaskManagerIcon.png)
+
 ## Notifications
 
 ### Toast notifications
@@ -84,6 +100,10 @@ Toast notifications use the **Square 44x44 logo**.
 Lock screen notifications use the **Badge logo**. Visual Studio suggests that these images should only use white or transparent pixels; partially-transparent white pixels are okay too, allowing for antialiasing effects. The image below shows the 24x24 pixel Badge logo on the lock screen. `B1` is the logo, and `64` is the notification value:
 
 ![Lock screen notification](/ScreenShots/LockScreenNotification.png)
+
+## Badge on Taskbar
+
+![Taskbar badge logo](/ScreenShots/TaskbarBadgeLogo.png)
 
 ## Splash screen
 
