@@ -49,7 +49,7 @@ Their appearance can be altered by setting the tile background colour. If this i
 
 ![Tile background colour](/ScreenShots/TileBackgroundColour.png)
 
-The Visual Studio 2015 icon gives an indication of what an icon with a `transparent` background would look like.
+The Visual Studio Emulator for Android icon gives an indication of what an icon with a `transparent` background would look like.
 
 ### Windows 10 taskbar
 
