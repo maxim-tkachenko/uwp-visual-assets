@@ -45,7 +45,7 @@ The icons displayed on the more conventional section of the Windows 10 Start men
 
 ![Start menu icon](/VisualAssetsApp/Assets/Square44x44Logo.scale-100.png)
 
-Their appearance can be altered by setting the tile background colour. If this is set to `transparent`, the user's accent colour will show through. If a colour is specified, that is used instead. In this project I've specified the background colour to be `yellow`, which results in the following:
+Their appearance can be altered by setting the tile background colour. If this is set to `transparent`, the user's accent colour will show through. If a colour is specified, that is used instead. In this project I've specified the background colour to be `light-green`, which results in the following:
 
 ![Tile background colour](/ScreenShots/TileBackgroundColour.png)
 
