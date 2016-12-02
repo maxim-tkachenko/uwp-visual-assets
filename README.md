@@ -1,5 +1,7 @@
 # UWP App Visual Assets
 
+Official [guidelines](https://msdn.microsoft.com/en-us/windows/uwp/controls-and-patterns/tiles-and-notifications-app-assets).
+
 ## Overview
 
 I created this project to help me understand where the various logos are employed within a Universal Windows Platform app (UWP app). The project contains unique images for each of the different visual assets, with text (where feasible) to indicate which scaling is in use.
@@ -101,7 +103,7 @@ Lock screen notifications use the **Badge logo**. Visual Studio suggests that th
 
 ![Lock screen notification](/ScreenShots/LockScreenNotification.png)
 
-## Badge on Taskbar
+### Badge on Taskbar icon
 
 ![Taskbar badge logo](/ScreenShots/TaskbarBadgeLogo.png)
 
